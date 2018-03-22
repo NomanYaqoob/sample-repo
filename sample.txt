@@ -1,1 +1,15 @@
-this is a test document. edited
+1.Install Git in your machine
+1.1 . goto any folder and run command prompt there.
+2. use git init to initiate a new empty repository
+3. create a new repository on github.com
+4. (git remote add <name> <url>) to add new remote with the git url
+5. create some sample files on that folder
+6. check the current situation on cmd using (git status)
+7. use (git add <fileName>/.) to track the files
+
+git config user.email "nomnn@fff.com"
+git config user.username "username"
+
+
+8. commit those files using (git commit -m <message>)
+9. push those files to remote using (git push <remote-name> <branch-name>)
